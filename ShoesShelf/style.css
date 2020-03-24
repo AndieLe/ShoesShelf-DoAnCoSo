@@ -347,24 +347,70 @@ button:hover {
 }
 
 
+/*footer*/
+#footer {
+    padding-bottom: 17px;
+    background-color: #f0f0f0;
+}
 
-/* Footer */
-footer{
+footer {
+    margin: auto;
+}
+
+.row {
+    zoom: 1;
+    font-size: 15px;
+    color: #000;
+}
+
+.containerSm {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#footer .center-block a {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #9b9b9b;
+}
+
+#footer .social>a {
+    display: inline-block;
+}
+
+#footer .newsletter p {
+    font-size: 15px;
+}
+
+#footer .newsletter p {
+    margin: 12px;
+}
+
+p {
+    margin: 0 0 10px 0;
+    line-height: 21px;
+}
+
+.social a {
+    color: #000;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+#footer .social {
+    padding-top: 30px;
     width: 100%;
-    height: auto;
-    padding: 20px 120px;
-    background-color: #fafafa;
-}
-.footer-content{
-  
-}
-.footer-content .text{
-    color: gray;
-    font-size: 12px;
-    text-align: center;
-    
-}
-.footer-content .text a{
-    text-decoration: none;
-    color: black;
 }
